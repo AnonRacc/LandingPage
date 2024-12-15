@@ -1,0 +1,81 @@
+*{
+    border:1px solid red;
+    gap:10px;
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+/*HEADER*/
+.header {
+    flex-direction: column;  
+}
+.header .upper {
+    display: flex;
+    justify-content: space-around;
+}
+.upper .logo {
+
+}
+.upper .links {
+    display: flex;
+    gap:10px;
+    justify-content: flex-end;
+}
+
+.header .lower {
+    display: flex;
+    align-content: center;
+}
+.lower .header-text{
+    flex:1;
+}
+.header-text .title {
+
+} 
+.header-text .desc {
+    
+}
+.lower .hero{
+    align-content: center
+}
+/*CONTENT -INFO*/
+.content{
+flex-direction: column;
+}
+.images {
+    display:flex;
+    flex-direction: row;
+}
+.image{
+
+}
+/*CONTENT -QUOTE*/
+.quote{
+
+}
+.quote .text{
+
+}
+.quote .author {
+    text-align: right;
+}
+
+/*REGISTER*/
+.register .title{
+    
+}
+.register .desc {
+
+}
+.register .button {
+
+}
+/*FOOTER*/
+.footer {
+
+}
